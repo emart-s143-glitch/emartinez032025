@@ -1,0 +1,121 @@
+html
+{
+scroll-behavior: smooth;
+
+}
+
+body
+{
+    background-color: #542a13;
+
+}
+.container
+{
+max-width: 75rem;
+min-height: 10rem;
+margin: auto;
+background-color: snow;
+padding: 1rem;
+}
+
+
+
+
+#pageheader
+{background-color: coral;
+min-height:auto;
+padding: .25rem;
+}
+
+#logo
+{
+background-image: url(Images/Heroimage2.png);
+width: 6.25rem;
+height: 6.25rem;
+border: 1px solid none;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#pageheader .container
+{
+background-color: lavender;
+min-height: auto;
+}
+
+#pageheader nav
+{
+text-align: center;
+
+
+
+}
+#media
+{background-color: steelblue;
+min-height: 10rem;
+padding: 1rem;
+background-image: url(Images/Heroimage2.png);
+background-size: cover;
+aspect-ratio: 16 / 9;
+}
+#career
+{background-color: rosybrown;
+min-height: 10rem;
+padding: 1rem;
+}
+#pagecontent
+{background-color: darksalmon;
+min-height: 10rem;
+padding: 1rem;
+}
+#semester1
+{background-color: lavender;
+min-height: 10rem;
+padding: 1rem;
+}
+#semester2
+{background-color: pink;
+min-height: 10rem;
+padding: 1rem;
+}
+#pagefooter
+{background-color: dodgerblue;
+min-height: auto;
+padding: 1rem;
+}
+#pagefooter .container
+{
+background-color: lightskyblue;
+min-height: auto;
+text-align: center;
+}
+
+#aifooter
+{
+padding: 1rem;
+background-color: lightskyblue;
+min-height: auto;
+}
+
+#aifooter .container
+{
+min-height: auto;
+text-align: center;
+
+}
+
+
+#subfooter
+{background-color: midnightblue;
+min-height: 10rem;
+padding: 1rem;
+text-align: center;
+}
+audio
+{
+border: 5px solid midnightblue;
+background-color: midnightblue;
+display: block;
+margin: auto;
+}
+
