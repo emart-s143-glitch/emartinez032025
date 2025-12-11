@@ -119,3 +119,15 @@ display: block;
 margin: auto;
 }
 
+@media screen and (min-width:650px)
+{
+    #pagecontent
+    {background-color: purple }
+}
+
+@media screen and (min-width:1000px)
+{
+    #pagecontent
+    {background-color: brown }
+
+}
