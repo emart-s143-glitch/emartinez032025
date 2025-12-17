@@ -31,7 +31,6 @@ __This is blod/strong__
 1. Tres
 1. Cuatro
 1. Cinco
-
 <!-- Bulleted -->
 * Ichi
 * Ni

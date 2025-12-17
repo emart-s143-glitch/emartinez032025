@@ -39,7 +39,7 @@ background-repeat: no-repeat;
 
 #pageheader .container
 {
-background-color: lavender;
+background-color: #e2ceb1;
 min-height: auto;
 }
 
@@ -49,6 +49,29 @@ text-align: center;
 
 
 
+}
+
+#pageheader nav ul
+{
+background-color: none; 
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+
+}
+
+#pageheader nav ul li
+{
+border: 2px solid black;
+padding: 1rem;
+margin: 2px;
+background-color: aliceblue;
+}
+
+#pageheader nav ul li:hover
+{
+    background-color: blue;
 }
 #media
 {background-color: steelblue;
@@ -64,7 +87,7 @@ min-height: 10rem;
 padding: 1rem;
 }
 #pagecontent
-{background-color: darksalmon;
+{background-color: ;
 min-height: 10rem;
 padding: 1rem;
 }
@@ -74,7 +97,7 @@ min-height: 10rem;
 padding: 1rem;
 }
 #semester2
-{background-color: pink;
+{background-color: #73412b;
 min-height: 10rem;
 padding: 1rem;
 }
@@ -119,10 +142,24 @@ display: block;
 margin: auto;
 }
 
-@media screen and (min-width:650px)
+@media screen and (min-width:600px)
 {
-    #pagecontent
-    {background-color: purple }
+#pageheader nav ul
+{
+margin-top: 2rem;
+
+}
+
+
+    #pageheader nav ul li {
+
+    display: inline-block;
+    }
+
+
+    #pagecontent{
+        background-color: purple 
+    }
 }
 
 @media screen and (min-width:1000px)
