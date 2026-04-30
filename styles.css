@@ -1,8 +1,8 @@
 /* Mobile styles - Default */
 :root {
-  --primary-color: peachpuff;
-  --secondary-color: #7c4700;
-  --tertiary-color: #e2ceb1;
+  --primary-color: #86010C;
+  --secondary-color: #262138;
+  --tertiary-color: rgb(178, 161, 246);
   --main-font: "Arial", sans-serif;
 }
 html {
@@ -19,14 +19,14 @@ body {
   background-color: none;
   padding: 1rem;
 }
-e2ceb1 #pageheader {
-  background-color: #e2ceb1;
+#pageheader {
+  background-color: var(--primary-color);
   min-height: auto;
   padding: 0.25rem;
 }
 
 #logo {
-  background-image: url(Images/Heroimage2.png);
+  background-image: url(Images/_0.jpeg);
   width: 6.25rem;
   height: 6.25rem;
   border: 1px solid none;
@@ -37,7 +37,7 @@ e2ceb1 #pageheader {
 }
 
 #pageheader .container {
-  background-color: #e2ceb1;
+  background-color: var(--primary-color);
   min-height: auto;
 }
 
@@ -56,37 +56,37 @@ e2ceb1 #pageheader {
   border: 2px solid black;
   padding: 1rem;
   margin: 2px;
-  background-color: aliceblue;
+  background-color: rgb(178, 161, 246);
 }
 
 #pageheader nav ul li:hover {
-  background-color: blue;
+  background-color: var(--secondary-color);
 }
 #media {
   background-color: var(--primary-color);
   min-height: 10rem;
   padding: 1rem;
-  background-image: url(Images/Heroimage2.png);
+  background-image: url(Images/Choso.webp);
   background-size: cover;
   aspect-ratio: 16 / 9;
 }
 #career {
-  background-color: rosybrown;
+  background-color: var(--primary-color);
   min-height: 10rem;
   padding: 1rem;
 }
 #pagecontent {
-  background-color:;
+  background-color: var(--secondary-color);
   min-height: 10rem;
   padding: 1rem;
 }
 #semester1 {
-  background-color: lavender;
+  background-color: #36A7B7;
   min-height: 10rem;
   padding: 1rem;
 }
 #semester2 {
-  background-color: #f5deb3;
+  background-color: #5488B8;
   min-height: 10rem;
   padding: 1rem;
 }
@@ -96,14 +96,14 @@ e2ceb1 #pageheader {
   padding: 1rem;
 }
 #pagefooter .container {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   min-height: auto;
   text-align: center;
 }
 
 #aifooter {
   padding: 1rem;
-  background-color: peachpuff;
+  background-color: var(--tertiary-color);
   min-height: auto;
 }
 
@@ -113,14 +113,14 @@ e2ceb1 #pageheader {
 }
 
 #subfooter {
-  background-color: #f5deb3;
+  background-color: var(--tertiary-color);
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
 }
 audio {
-  border: 5px solid midnightblue;
-  background-color: midnightblue;
+  border: 5px solid rgb(78, 78, 178);
+  background-color: rgb(78, 78, 178);
   display: block;
   margin: auto;
 }
@@ -135,7 +135,7 @@ audio {
   }
 
   #pagecontent {
-    background-color: snow;
+    background-color: #CAE1DE;
   }
   #logo {
     margin: 0;
