@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: var(--secondary-color);
-}
+} 
 .container {
   max-width: 75rem;
   min-height: 10rem;
@@ -92,20 +92,40 @@ body {
   min-height: 10rem;
   padding: 1rem;
 }
+#worksamples {
+  background-color: var(--primary-color);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates {
+  background-color: snow;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates ul 
+{
+list-style-type: none;
+
+}
+#certificates i 
+{
+color: #86010C;
+
+}
 #pagefooter {
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   min-height: auto;
   padding: 1rem;
 }
 #pagefooter .container {
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
   min-height: auto;
   text-align: center;
 }
 
 #aifooter {
   padding: 1rem;
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   min-height: auto;
 }
 
@@ -115,7 +135,7 @@ body {
 }
 
 #subfooter {
-  background-color: var(--tertiary-color);
+  background-color: #603028;
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
